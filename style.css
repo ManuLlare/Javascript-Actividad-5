@@ -1,0 +1,48 @@
+/* Estilos generales */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+h1 {
+    color: #333;
+    font-size: 24px; /* Cambiar el tamaño de la fuente */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+/* Botón */
+#getCatButton {
+    background-color: #0074d9; /* Cambiar el color de fondo del botón */
+    color: #fff; /* Cambiar el color del texto del botón */
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px; /* Cambiar el tamaño de la fuente del botón */
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#catImageContainer {
+    margin-top: 20px;
+}
+
+#catImage {
+    max-width: 100%;
+    height: auto;
+}
